@@ -8,6 +8,14 @@
     <link href="" rel="stylesheet">
     
     <script src="../../../../scripts/init-theme.14f96f53.js"></script>
+    <script>
+      window.onload = function() {
+          var height = document.body.scrollHeight;
+          if (window.parent) {
+            window.parent.postMessage({ type: 'frame-height', height: height }, '*');
+          }
+      };
+      </script>
   </head>
 
   <body class="dx-viewport">

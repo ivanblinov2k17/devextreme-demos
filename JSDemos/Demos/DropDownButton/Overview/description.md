@@ -1,4 +1,5 @@
 The DropDownButton is&nbsp;a&nbsp;button that opens a&nbsp;drop-down menu. The button displays&nbsp;a [text](/Documentation/ApiReference/UI_Components/dxDropDownButton/Configuration/#text) and&nbsp;an [icon](/Documentation/ApiReference/UI_Components/dxDropDownButton/Configuration/#icon).
+// _split_
 
 Menu items can be&nbsp;specified in&nbsp;the [items](/Documentation/ApiReference/UI_Components/dxDropDownButton/Configuration/#items) or&nbsp;[dataSource](/Documentation/ApiReference/UI_Components/dxDropDownButton/Configuration/#dataSource) properties. Use **dataSource** if&nbsp;data is&nbsp;remote or&nbsp;should be&nbsp;processed. To&nbsp;customize menu items, implement&nbsp;an [itemTemplate](/Documentation/ApiReference/UI_Components/dxDropDownButton/Configuration/#itemTemplate).
 
